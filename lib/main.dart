@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         providers: [
           BlocProvider(
             create: (context) =>
-                PokemonBloc()..add(PokemonPageRequest(page: 50)),
+                PokemonBloc()..add(PokemonPageRequest(page: 20)),
           )
         ],
         child: const PokedexView(),
